@@ -1,0 +1,62 @@
+.nav {
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  background:white;
+  font-size: small;
+  z-index: 10;
+}
+
+.Name{
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: orangered;
+}
+.Name:hover{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 25px;
+  color: black;
+  background:transparent;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+  list-style-type: none;
+}
+
+.nav-list li a{
+  text-decoration: none;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+    display: block;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav-list a {
+  display: block;
+  margin: 5px;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.nav-list a:hover {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  font-weight: bold;
+  border-radius: 25px;
+  color: dodgerblue;
+  background:transparent;
+}

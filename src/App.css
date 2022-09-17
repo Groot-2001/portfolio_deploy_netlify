@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat','Poppins', sans-serif;
+}
+
+ /* box-sizing and font sizing */
+ *,
+ *::before,
+ *::after {
+   box-sizing: inherit;
+ }
+
+ .App{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+ }
+
+

@@ -1,0 +1,30 @@
+ footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    border-top: 4px solid orangered;
+    background: #264248;
+  }
+  
+  footer p {
+    margin: 2rem;
+    color:olivedrab;
+    font-size: xx-large;
+  }
+  
+  footer i {
+    vertical-align: middle;
+  }
+  .anchor{
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 28.75em) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
