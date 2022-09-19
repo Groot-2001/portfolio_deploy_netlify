@@ -26,6 +26,8 @@
 
 .nav-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 2rem;
   list-style-type: none;
 }
@@ -37,6 +39,7 @@
 @media (max-width: 28.75em) {
   .nav {
     justify-content: center;
+    align-items: center;
     display: block;
   }
 
@@ -48,7 +51,7 @@
 .nav-list a {
   display: block;
   margin: 5px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 1rem;
 }
 
