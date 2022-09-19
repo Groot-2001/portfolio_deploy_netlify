@@ -7,13 +7,14 @@
     width: 100%;
     height: 100vh;
     background-color: dodgerblue;
+    overflow: hidden;
   }
   .welcome-section:before {
     overflow: hidden;
     content: "";
     position: absolute;
-    top: 70px;
-    bottom: -71px;
+    top: 67px;
+    bottom: -67px;
     left: 0;
     width: 300px;
     background: rgb(0, 31, 66);
@@ -27,6 +28,9 @@
       overflow: hidden;
     }
     .welcome-section::before {
+      display: none;
+    }
+    .cursor{
       display: none;
     }
   }

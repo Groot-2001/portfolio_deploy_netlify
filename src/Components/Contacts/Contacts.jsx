@@ -10,29 +10,29 @@ function Contacts() {
               </div>
               <div class="contact-links">
                   <a
-                      href="https://facebook.com/freecodecamp"
+                      href="https://facebook.com/#"
                       rel='noopener'
                       class="btn contact-details"
                   ><i class="fab fa-facebook-square"></i> Facebook</a
                   >
                   <a
                       id="profile-link"
-                      href="https://github.com/freecodecamp"
+                      href="https://github.com/Groot-2001"
                       rel='noopener'
                       class="btn contact-details"
                   ><i class="fab fa-github"></i> GitHub</a
                   >
                   <a
-                      href="https://twitter.com/freecodecamp"
+                      href="https://twitter.com/#"
                       rel='noopener'
                       class="btn contact-details"
                   ><i class="fab fa-twitter"></i> Twitter</a
                   >
-                  <a href="/cdn-cgi/l/email-protection#e7829f868a978b82a7829f868a978b82c984888a" class="btn contact-details">
+                  <a href="mailto:shivasilmawala841@gmail.com" class="btn contact-details">
                     <i class="fas fa-at">
                     </i> Send a mail</a
                   >
-                  <a href="tel:555-555-5555" class="btn contact-details"
+                  <a href="tel:7039568123" class="btn contact-details"
                   ><i class="fas fa-mobile-alt"></i> Call me</a
                   >
               </div>
