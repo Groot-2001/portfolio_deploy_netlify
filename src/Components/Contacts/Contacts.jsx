@@ -3,8 +3,7 @@ import './contacts.css';
 
 function Contacts() {
   return (
-    <div className='Contacts'>
-          <section id="contact" class="contact-section">
+   <section id="contact" class="contact-section">
               <div class="contact-section-header">
                   <h2>Let's work together...</h2>
                   <p>How do you take your coffee?</p>
@@ -38,7 +37,6 @@ function Contacts() {
                   >
               </div>
         </section>
-    </div>
   );
 };
 

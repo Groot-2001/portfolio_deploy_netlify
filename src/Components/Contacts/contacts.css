@@ -16,6 +16,9 @@
   }
   
   @media (max-width: 28.75em) {
+    .contact-section{
+      margin: 4rem 0;
+    }
     .contact-section-header > h2 {
       font-size: 3rem;
     }

@@ -9,6 +9,7 @@
     background-color: dodgerblue;
   }
   .welcome-section:before {
+    overflow: hidden;
     content: "";
     position: absolute;
     top: 70px;
@@ -20,23 +21,23 @@
     transform-origin:top;
   }
 
-  @media (max-width: 28.75em) {
+
+  @media (max-width: 412px) {
     .welcome-section{
       overflow: hidden;
     }
     .welcome-section::before {
       content: "";
       position: absolute;
-      top: 0;
+      top: 132px;
       bottom: -132px;
       left: 0;
       width: 300px;
       background: #000;
-      transform: skew(45deg);
+      transform: skew(19deg);
       transform-origin:bottom;
     }
   }
-  
   .welcome-section h1 {
     font-weight: bold;
     font-size: 3rem;
